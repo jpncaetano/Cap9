@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Fintech</title>
+    
+    <!-- Linkando Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Linkando a CSS personalizada -->
+    <link rel="stylesheet" href="./style.css">
+    
+    <!-- Linkando Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="mobile-container">
+        <div class="login-box">
+            <h1>FINTECH</h1>
+            <p>O jeito mais fácil de controlar suas finanças</p>
+            
+            <div class="form-container">
+                <form>
+                    <div class="input-group">
+                        <label for="cpf">CPF</label>
+                        <input type="text" id="cpf" name="cpf" class="form-control" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="password">Senha</label>
+                        <input type="password" id="password" name="password" class="form-control" required>
+                    </div>
+                    <div class="button-container">
+                        <button type="submit" class="btn btn-primary custom-button">CONTINUAR</button>
+                    </div>
+                </form>
+                <div class="links">
+                    <a href="#">Esqueci minha senha</a>
+                    <a href="#">Criar uma conta</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Linkando Bootstrap JS e dependências -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

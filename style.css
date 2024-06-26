@@ -1,0 +1,144 @@
+body {
+    font-family: "Lexend Zetta", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.mobile-container {
+    width: 300px;
+    height: 500px;
+    max-width: 50%;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background: linear-gradient(180deg, #4272AE 30%, #E9E9E9 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.login-box {
+    text-align: center;
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-box h1 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-decoration: underline;
+    color: #bbbaba83;
+}
+
+.login-box p {
+    font-size: 8px;
+    font-weight: 300;
+    margin-bottom: 25px;
+    color: #bbbaba83;
+}
+
+.form-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-top: -50px;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.input-group label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #aaa9a99d;
+    font-size: 12px;
+    transition: 0.2s;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 15px 0px 0;
+    border: none;
+    border-bottom: 1px solid #434343;
+    font-size: 14px;
+    font-weight: 300;
+    background: none;
+    outline: none;
+    color: #434343;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin-top: 10px;
+}
+
+.input-group input:focus {
+    border-bottom: 1px solid #aaa9a99d;
+    outline: none;
+    box-shadow: none;
+    background: none;
+}
+
+
+.input-group input:focus + label,
+.input-group input:not(:placeholder-shown) + label {
+    top: -20px;
+    font-size: 10px;
+    color: #434343;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2F50FF;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 9px;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.custom-button {
+    font-size: 9px;
+}
+
+.links {
+    position: absolute;
+    bottom: 60px;
+    left: 0%;
+    width: 100%;
+    text-align: center;
+}
+
+.links a {
+    display: inline-block;
+    margin-bottom: 0px;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 10px;
+    margin: 0 10px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
